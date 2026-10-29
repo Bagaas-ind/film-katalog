@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SAROKA - Modern Movie Catalog 🎬🍿
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-First, run the development server:
+**SAROKA** adalah platform katalog film modern yang terinspirasi dari *Letterboxd*. Dibangun untuk memberikan pengalaman eksplorasi film yang cepat, estetik, dan interaktif.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Demo
+Cek website yang sudah online di sini: **[synoptic-weather.netlify.app](https://synoptic-weather.netlify.app)** *(Ganti dengan link Netlify Film kamu)*
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Fitur Utama
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Desain UI "Letterboxd-Style"**: Tema *Dark Mode* dengan aksen hijau neon (`#00e054`) dan bintang rating oranye yang ikonik.
+- **Dynamic Routing**: Setiap film punya halaman detailnya sendiri (`/movie/[id]`) lengkap dengan sinopsis, sutradara, dan durasi.
+- **Sistem Review & Rating**: Pengguna bisa memberikan rating bintang dan menulis ulasan yang tersimpan di *localStorage*.
+- **Katalog 46+ Film**: Terdiri dari film Hollywood, A24, Cinema Asia (Korea/Jepang/Hong Kong), dan *Top Rated IMDb*.
+- **Anti-Broken Images**: Sistem *fallback* otomatis yang mengganti gambar rusak dengan teks judul agar UI tetap rapi.
+- **Responsive Grid**: Grid film yang otomatis menyesuaikan layar HP (2 kolom) dan Laptop (6 kolom).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack
 
-## Learn More
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Bahasa**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Deployment**: [Netlify](https://www.netlify.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Cara Menjalankan Project di Lokal
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone repository ini:**
+   ```bash
+   git clone https://github.com/Bagaas-ind/ac-sejuk-web.git
+   cd ac-sejuk-web
